@@ -4,13 +4,19 @@
 
 ## Descripción
 
-`mdlinks` es un paquete npm diseñado para analizar archivos Markdown, extraer enlaces y proporcionar validación para esos enlaces. Se puede utilizar para automatizar la verificación de enlaces dentro de sus documentos Markdown, asegurando que todos los enlaces sean válidos y no estén rotos.
+`mdlinks` es una librería desarrollada en Node.js para analizar archivos Markdown, extraer enlaces y entregar la validación de esos enlaces. 
 
-En este proyecto desarrollarás una librería en Node.js que funcionará como herramienta para analizar links dentro de archivos Markdown. Esta librería estará disponible de dos formas: como un módulo publicado en GitHub, que las usuarias podrán instalar e importar en otros proyectos, y como una interfaz de línea de comandos (CLI) que permitirá utilizar la librería directamente desde el terminal.
+En este proyecto desarrollarás una librería en Node.js que funcionará como herramienta para analizar links dentro de archivos Markdown. 
 
-``
+
+## Instalación
+
+Esta librería está publicada y disponible como un módulo en GitHub, las usuarias pueden instalar e importar en otros proyectos. Al ejecutar la linea de comandos en la terminal se ejecuta y se puede comenzar a utilizar para revisar que todos los links de los archivos MarkDowm están activos. 
+
+```bash
 npm install CamiFlo/DEV009-md-links
-``
+
+```
 
 ## Tecnologias utilizadas
 En este proyecto se construyó con JavaScript, 
