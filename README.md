@@ -9,6 +9,7 @@
 
 
 ## Diagrama de Flujo
+![diagrama_flujo_mdLinks](docs/diagrama.png)
 
 
 ## Características
