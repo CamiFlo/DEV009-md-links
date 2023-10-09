@@ -81,7 +81,7 @@ demo-mdLinks ./directorio --vaalidate --stats
 ```
 ## Ejemplos
 
-![ejemplo_validate-stats](docs/validate_stats.jpg)
+![ejemplo_validate-stats](docs/ejemplo-validate-stats.png)
 
 ## Proceso de trabajo
 Este proyecto está en la curricula de @Laboratoria, donde se dividió el trabajo en 5 hitos, donde se van encadenando los procesos de producción, me permitió ir visualizando como es el trabajo en backend.
