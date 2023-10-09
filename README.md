@@ -9,6 +9,7 @@
 
 
 ## Diagrama de Flujo
+![diagrama_flujo_mdLinks](docs/diagrama.png)
 
 
 ## Características
@@ -64,23 +65,23 @@ Para obtener el status de los links validados por Axios y un resumen de los link
 **--validate**: retornará cada enlace que se encuentre en un archivo Markdown y mostrará su status (200 ó 404)  y statusText (OK o Fail), además de las propiedades href, text y file.
 ```bash
 demo-mdLinks /archivo --validate
-demo-mdLinks ./directorio --validate
 
+demo-mdLinks ./directorio --validate
 ```
 
 **--stats**:  entrega 2 estadísticas sobre los enlaces encontrados: total de links y links únicos
 
 ```bash
 demo-mdLinks /archivo --stats
-demo-mdLinks ./directorio --stats
 
+demo-mdLinks ./directorio --stats
 ```
 
 **--validate --stats**: al entregar ambas opciones, se entregan 4 estadísticas sobre los enlaces validados, incluidos: número total de enlaces, enlaces únicos, enlaces válidos (OK) y enlaces rotos (Fail). 
 ```bash
 demo-mdLinks /archivo --validate --stats
-demo-mdLinks ./directorio --vaalidate --stats
 
+demo-mdLinks ./directorio --vaalidate --stats
 ```
 ## Ejemplos
 ##### Cuando le entregamos a demo-mdLinks el directorio de un proyecto, se obtienen los links con 3 propiedades: href, text y file.
