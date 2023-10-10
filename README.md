@@ -86,7 +86,7 @@ demo-mdLinks ./directorio --vaalidate --stats
 ## Ejemplos
 ##### Cuando le entregamos a demo-mdLinks el directorio de un proyecto, se obtienen los links con 3 propiedades: href, text y file.
 ![ejemplo_directorio](docs/ejemplo_directorio.png)
-##### Cuando entregamos a demo-mdLinks un directorio más el flag --validate, nos entrega 5 propiedades de los links encontrados:href, text, file, status y statusText.
+##### Cuando entregamos a demo-mdLinks un directorio más el flag --validate, nos entrega 5 propiedades de los links encontrados: href, text, file, status y statusText.
 ![ejemplo_validate](docs/ejemplos_validate.png)
 ##### Entregamos el directorio y ambos opciones --validate y --stats, nos entrega un resumen del número de links totales, únicos, fallidos y válidos.
 
